@@ -1,0 +1,540 @@
+/* ==========================
+        تنظیمات اولیه
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    direction:rtl;
+
+    font-family:Tahoma,sans-serif;
+
+    background:#FFF8F2;
+
+    color:#444;
+
+    line-height:1.8;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:#333;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+
+/* ==========================
+        کانتینر
+========================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+
+/* ==========================
+        Header
+========================== */
+
+header{
+
+    background:#ffffff;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+
+    padding:20px 0;
+
+}
+
+
+header .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+/* ==========================
+        لوگو
+========================== */
+
+.logo h1{
+
+    color:#E88CB2;
+
+    font-size:34px;
+
+}
+
+.logo p{
+
+    color:#666;
+
+    font-size:14px;
+
+}
+
+
+/* ==========================
+        منو
+========================== */
+
+nav ul{
+
+    display:flex;
+
+    gap:25px;
+
+}
+
+nav ul li a{
+
+    color:#444;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    color:#E88CB2;
+
+}
+/* ==========================
+        Hero
+========================== */
+
+.hero{
+
+    position:relative;
+
+    width:100%;
+
+    height:500px;
+
+    overflow:hidden;
+
+}
+
+.hero img{
+
+    width:100%;
+
+    height:500px;
+
+    object-fit:cover;
+
+}
+
+.hero-text{
+
+    position:absolute;
+
+    top:50%;
+
+    right:8%;
+
+    transform:translateY(-50%);
+
+    background:rgba(255,255,255,.9);
+
+    padding:30px;
+
+    border-radius:15px;
+
+    width:400px;
+
+}
+
+.hero-text h2{
+
+    color:#E88CB2;
+
+    margin-bottom:15px;
+
+    font-size:32px;
+
+}
+
+.hero-text p{
+
+    margin-bottom:20px;
+
+    font-size:18px;
+
+}
+
+/* ==========================
+        دکمه
+========================== */
+
+.btn{
+
+    display:inline-block;
+
+    background:#E88CB2;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#d96b98;
+
+}
+
+/* ==========================
+        Section
+========================== */
+
+section{
+
+    padding:70px 0;
+
+}
+
+section h2{
+
+    text-align:center;
+
+    color:#8D6E63;
+
+    margin-bottom:40px;
+
+    font-size:30px;
+
+}
+
+/* ==========================
+        درباره ما
+========================== */
+
+.about{
+
+    text-align:center;
+
+}
+
+.about p{
+
+    max-width:800px;
+
+    margin:15px auto;
+
+    font-size:18px;
+
+}
+/* ==========================
+      کارت دوره و محصول
+========================== */
+
+#courseContainer,
+#productContainer{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+/* کارت */
+
+.card{
+
+    background:white;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+
+    transition:0.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* تصویر کارت */
+
+.card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+/* محتوای کارت */
+
+.card-body{
+
+    padding:15px;
+
+}
+
+.card-body h3{
+
+    margin-bottom:10px;
+
+    font-size:20px;
+
+    color:#444;
+
+}
+
+.card-body p{
+
+    font-size:15px;
+
+    color:#666;
+
+    margin-bottom:10px;
+
+}
+
+/* قیمت */
+
+.price{
+
+    color:#E88CB2;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    margin:15px 0;
+
+}
+
+/* دکمه خرید */
+
+.buy{
+
+    display:block;
+
+    width:100%;
+
+    background:#E88CB2;
+
+    color:white;
+
+    text-align:center;
+
+    padding:10px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.buy:hover{
+
+    background:#cf6d95;
+
+}
+/* ==========================
+          Footer
+========================== */
+
+footer{
+
+    background:#8D6E63;
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px 20px;
+
+}
+
+footer h3{
+
+    font-size:28px;
+
+    margin-bottom:15px;
+
+}
+
+footer p{
+
+    margin:8px 0;
+
+}
+
+/* ==========================
+        جستجوی فروشگاه
+========================== */
+
+.search-box{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.search-input{
+
+    width:320px;
+
+    padding:12px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    outline:none;
+
+    font-size:16px;
+
+    transition:0.3s;
+
+}
+
+.search-input:focus{
+
+    border-color:#E88CB2;
+
+    box-shadow:0 0 8px rgba(232,140,178,.3);
+
+}
+/*==========================
+      بازگشت به خانه
+==========================*/
+
+.back-home{
+
+    text-align:center;
+
+    margin-top:40px;
+
+}
+/*============================
+      صفحه محصول
+=============================*/
+
+.product-details{
+
+display:flex;
+
+gap:40px;
+
+align-items:center;
+
+margin-top:40px;
+
+}
+
+.product-image{
+
+flex:1;
+
+}
+
+.product-image img{
+
+width:100%;
+
+border-radius:15px;
+
+box-shadow:0 0 10px rgba(0,0,0,.15);
+
+}
+
+.product-info{
+
+flex:1;
+
+}
+
+.product-info h2{
+
+font-size:34px;
+
+margin-bottom:20px;
+
+color:#E88CB2;
+
+}
+
+.product-info p{
+
+margin-bottom:20px;
+
+font-size:18px;
+
+}
+
+.product-buttons{
+
+display:flex;
+
+gap:15px;
+
+margin-top:30px;
+
+}
+
+.favorite-btn{
+
+background:#8D6E63;
+
+}
+
+.favorite-btn:hover{
+
+background:#6D4C41;
+
+}

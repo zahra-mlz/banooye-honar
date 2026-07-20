@@ -1,0 +1,145 @@
+/* ===========================
+      تبلت (زیر 992px)
+=========================== */
+
+@media (max-width:992px){
+
+    header .container{
+
+        flex-direction:column;
+
+    }
+
+    nav ul{
+
+        margin-top:20px;
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+    .hero{
+
+        height:400px;
+
+    }
+
+    .hero img{
+
+        height:400px;
+
+    }
+
+    .hero-text{
+
+        width:320px;
+
+        right:30px;
+
+        padding:20px;
+
+    }
+
+    #courseContainer,
+    #productContainer{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/* ===========================
+        موبایل
+=========================== */
+
+@media (max-width:768px){
+
+    .container{
+
+        width:95%;
+
+    }
+
+    header{
+
+        padding:15px 0;
+
+    }
+
+    .logo{
+
+        text-align:center;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:15px;
+
+    }
+
+    .hero{
+
+        height:300px;
+
+    }
+
+    .hero img{
+
+        height:300px;
+
+    }
+
+    .hero-text{
+
+        position:static;
+
+        transform:none;
+
+        width:100%;
+
+        border-radius:0;
+
+        background:#ffffff;
+
+    }
+
+    .hero-text h2{
+
+        font-size:24px;
+
+    }
+
+    .hero-text p{
+
+        font-size:16px;
+
+    }
+
+    #courseContainer,
+    #productContainer{
+
+        grid-template-columns:1fr;
+
+    }
+
+    section{
+
+        padding:40px 0;
+
+    }
+
+    footer{
+
+        padding:30px 10px;
+
+    }
+
+}
