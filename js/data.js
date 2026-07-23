@@ -40,7 +40,7 @@ let courses = [
         id:5,
         title:"آموزش دوخت عروسک",
         teacher:"زهرا ملازاده",
-        price:"620 هزار تومان",
+        price:620,
         image:"images/course5.jpg"
     },
 
@@ -48,7 +48,7 @@ let courses = [
         id:6,
         title:"آموزش ساخت خرس پولیشی",
         teacher:"زهرا ملازاده",
-        price:"980 هزار تومان",
+        price:980,
         image:"images/course6.jpg"
     }
 
@@ -65,56 +65,56 @@ let products = [
     {
         id:1,
         title:"خرس پولیشی",
-        price:"420 هزار تومان",
+        price:420,
         image:"images/product1.jpg"
     },
 
     {
         id:2,
         title:"خرگوش پارچه ای",
-        price:"380 هزار تومان",
+        price:380,
         image:"images/product2.jpg"
     },
 
     {
         id:3,
         title:"عروسک دختر",
-        price:"490 هزار تومان",
+        price:490,
         image:"images/product3.jpg"
     },
 
     {
         id:4,
         title:"عروسک نمدی",
-        price:"350 هزار تومان",
+        price:350,
         image:"images/product4.jpg"
     },
 
     {
         id:5,
         title:"خرس کوچک",
-        price:"290 هزار تومان",
+        price:290,
         image:"images/product5.jpg"
     },
 
     {
         id:6,
         title:"عروسک فانتزی",
-        price:"520 هزار تومان",
+        price:520,
         image:"images/product6.jpg"
     },
 
     {
         id:7,
         title:"خرگوش صورتی",
-        price:"460 هزار تومان",
+        price:460,
         image:"images/product7.jpg"
     },
 
     {
         id:8,
         title:"عروسک دست ساز",
-        price:"610 هزار تومان",
+        price:610,
         image:"images/product8.jpg"
     }
 

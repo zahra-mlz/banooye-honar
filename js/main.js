@@ -66,7 +66,11 @@ if (productContainer) {
 
                 <h3>${products[i].title}</h3>
 
-                <p class="price">${products[i].price}</p>
+                <p class="price">
+
+${products[i].price} هزار تومان
+
+</p>
 
                 <a href="product.html?id=${products[i].id}" class="buy">
 
